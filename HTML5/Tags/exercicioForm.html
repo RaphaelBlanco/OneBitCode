@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronautas</title>
+</head>
+
+<body>
+    <h1>Cadastro da Liga dos Astronautas</h1>
+    <form action="">
+        <p>
+            <strong>Nome: </strong>
+            <input type="text" name="nome">
+        </p>
+        <p>
+            <strong>Email: </strong>
+            <input type="email" name="email">
+            <strong>- Password: </strong>
+            <input type="password" name="senha">
+        </p>
+        <p>
+            <strong>Data de Nascimento: </strong>
+            <input type="date" name="data">
+            <strong>- Foto: </strong>
+            <input type="file" id="img" name="foto">
+        </p>
+        <p>
+            <strong>Nacionalidade: </strong>
+            <select id="nacionalidade" name="nacionalidade">
+                <option value="Russo">Russo</option>
+                <option value="Brasileiro">Brasileiro</option>
+                <option value="EUA">EUA</option>
+            </select>
+            <strong>- Selecione Seu Genero: </strong>
+            <input type="radio" value="M" id="m" name="sexo">
+            <label for="m">Masculino</label>
+            <input type="radio" value="F" id="f" name="sexo">
+            <label for="f">Feminino</label>
+        </p>
+        <p>
+            <strong>Suas Qualidades: </strong>
+            <br>
+            <input type="checkbox" id="int" name="int" value="inteligente">
+            <label for="int">Inteligencia</label>
+            |<input type="checkbox" id="for" name="for" value="força">
+            <label for="for">Força</label>
+            |<input type="checkbox" id="res" name="res" value="resistencia">
+            <label for="res">Resistencia</label>
+            |<input type="checkbox" id="vel" name="vel" value="velocidade">
+            <label for="int">Velocidade</label>
+        </p>
+        <p>
+            <textarea name="qualidades" id="qua" cols="30" rows="10"
+                placeholder="Fale das Suas Qualificações"></textarea>
+            <br>
+            <input type="submit" value="Enviar" name="enviar">
+        </p>
+    </form>
+</body>
+
+</html>

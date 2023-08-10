@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://www.muycomputer.com/wp-content/uploads/2020/06/civilizaciones-alienigenas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    color: purple;
+}
+
+ul {
+    border: 2px solid white;
+}
+
+li>a {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
